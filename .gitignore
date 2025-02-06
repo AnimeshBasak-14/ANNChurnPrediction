@@ -31,13 +31,12 @@ Thumbs.db
 *.tmp
 
 # Ignore model and data files
-*.h5
 *.hdf5
 *.csv
 *.xlsx
+
 # Ignore additional log files
 *.out
 *.err
 *.log.*
 logs
-*.pkl
