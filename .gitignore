@@ -1,0 +1,42 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+env/
+venv/
+ENV/
+ENV*/
+
+# Ignore Anaconda specific files
+*.conda
+*.ipynb
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore other common files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore model and data files
+*.h5
+*.hdf5
+*.csv
+*.xlsx
+# Ignore additional log files
+*.out
+*.err
+*.log.*
+logs
